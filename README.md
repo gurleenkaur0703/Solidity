@@ -43,6 +43,8 @@ Amount of tokens to burn.
 ### Executing program
 • Open Remix IDE in your browser. Create a New File with .sol extention. Copy and paste the following code into the file:
 ```
+// SPDX-License-Identifier: MIT
+pragma solidity 0.8.18;
 contract Create_Token {
     // public variables here
             string public token_name  = "BITCOIN";
